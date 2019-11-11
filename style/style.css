@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "GRI";
+  src: url("/static/font/GintoNormalTrial-RegularIta.woff");
+}
+
+@font-face {
+  font-family: "GR";
+  src: url("/static/font/GintoNormalTrial-Regular.woff");
+}
+
+@font-face {
+  font-family: "GHI";
+  src: url("/static/font/GintoNormalTrial-BoldIta.woff");
+}
