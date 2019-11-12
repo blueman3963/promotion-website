@@ -63,7 +63,7 @@ class Ticket extends Component {
 
               .col1 {
                 display: inline-block;
-                width: 200px;
+                width: 15%;
                 vertical-align: top;
                 padding-right: 40px;
 
@@ -72,13 +72,13 @@ class Ticket extends Component {
               }
               .col2 {
                 display: inline-block;
-                width: 400px;
+                width: 31%;
                 vertical-align: top;
                 padding-right: 40px;
               }
               .col3 {
                 display: inline-block;
-                width: 400px;
+                width: 31%;
                 vertical-align: top;
                 padding-right: 40px;
               }
@@ -125,8 +125,7 @@ class Ticket extends Component {
             Randalls Island<br/>
             NYC<br/><br/>
               <div>
-                Jazz in the city is a family-friendly event in governors island. This location will be easily accessible via car or public transport for the people who live in NYC. The genre for the festival will be jazz with various artists such as; Snarky puppy, Cory Henry, FKJ, Robert Glasper, Nils Frahm and a busking stage for any jazz musician can book prior to the festival to sign up.
-              </div>
+Jazzin is a jazz festival supporting local jazz bars and artists to raise awareness of their groups to the public in Randall’s island. This location will be easily accessible via car or public transport for the people who live in NYC. Jazzin will host various artists such as; Snarky puppy, Cory Henry, FKJ, Robert Glasper, Nils Frahm and a busking stage for any jazz musician can book prior to the festival to sign up.              </div>
 
             </div>
             <div className='col3'>
