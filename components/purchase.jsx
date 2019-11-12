@@ -24,12 +24,21 @@ class Ticket extends Component {
               z-index: -9999999;
               background-color: #000;
               color: #fff;
+
+              .bg {
+                width: 100%;
+                height: 100%;
+                z-index: -9999;
+              }
             }
 
             .logo {
               img {
                 padding: 20px;
                 width: 200px;
+                position: absolute;
+                top: 0px;
+                left: 0px;
               }
             }
 
@@ -96,7 +105,7 @@ class Ticket extends Component {
               bottom: 100px;
               transform: rotate(-20deg);
               font-size: 40px;
-              background-color: #000;
+              background-color: rgba(0,0,0,0);
               padding: 16px 20px 20px;
               font-family: 'GRI';
               border: 2px solid #fff;
@@ -104,6 +113,7 @@ class Ticket extends Component {
           `}
         </style>
         <div className='purchasePage'>
+          <img src='static/bg.jpg' className='bg'/>
           <div className='logo'><img src='static/logo.png'/></div>
           <div className='tm'>Copyright &copy; 2019 jazzin All right reserved </div>
           <div className='body'>
